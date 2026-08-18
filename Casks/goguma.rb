@@ -4,12 +4,12 @@ cask "goguma" do
 
   on_macos do
     on_intel do
-      sha256 "d06f471657ba59fff844fa7ae80ad5aee2fef320af5af8a40291515cf2d273fb"
+      sha256 "02d626428b6aea1bf5ef864044631b1069a8c63b0b244f4a22a1035efc344e8a"
       url "https://github.com/junnam586/goguma/releases/download/v#{version}/goguma_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/junnam586/goguma"
     end
     on_arm do
-      sha256 "fdddb92179d27432644c5e17a254836709034a6c6903108294e33dca2a8dea20"
+      sha256 "0abc1313a75bf43304157143c76f231a14749a368e64fa2d997be9492b377a85"
       url "https://github.com/junnam586/goguma/releases/download/v#{version}/goguma_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/junnam586/goguma"
     end
@@ -17,12 +17,12 @@ cask "goguma" do
 
   on_linux do
     on_intel do
-      sha256 "085b5fdeb0d164374e750c00a94ac20315153f80e8f8742359ad65c33e3157ad"
+      sha256 "226441814b902e6c2365c18cdaadaa2ecfd71466c9627ff2496f25cf002027ed"
       url "https://github.com/junnam586/goguma/releases/download/v#{version}/goguma_#{version}_linux_amd64.tar.gz",
         verified: "github.com/junnam586/goguma"
     end
     on_arm do
-      sha256 "8c992cfe75d9c3573cb9cc27eb5a090ae67af64eff0b5b78b37ced60f994fd18"
+      sha256 "4060f5e5bb5e2a8e3259dbed59b34f9f90eec4b3a24a942be9583176550775b6"
       url "https://github.com/junnam586/goguma/releases/download/v#{version}/goguma_#{version}_linux_arm64.tar.gz",
         verified: "github.com/junnam586/goguma"
     end
